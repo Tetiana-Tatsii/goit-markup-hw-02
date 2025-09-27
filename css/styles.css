@@ -178,7 +178,9 @@ background-color: #404bbf;
     color: #434455;
 }
 .page-footer {
-    background-color: #2e2f42;
+    background: #2e2f42;
+}
+.logo-text{
     font-weight: 400;
     font-size: 16px;
     

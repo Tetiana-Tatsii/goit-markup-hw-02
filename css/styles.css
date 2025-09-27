@@ -83,9 +83,11 @@ font-style: normal;
     letter-spacing: 0.04em;
     color: #fff;
 }
-.order-btn:hover {
-background: #404bbf;
+.order-btn:hover, 
+.order-btn:focus{
+background-color: #404bbf;
 }
+
 .features-section{
     background-color: #FFFFFF;
 }
@@ -159,6 +161,9 @@ background: #404bbf;
     color: #2e2f42;
 }
 .portfolio{
+    background-color: #FFFFFF;
+}
+.portfolio-item{
     background-color: #FFFFFF;
 }
 

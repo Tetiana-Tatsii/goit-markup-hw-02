@@ -58,13 +58,15 @@ font-style: normal;
     color: #404bbf;
 }
 
-.hero-title {
+.hero{
     background-color: #2e2f42;
+}
+.hero-title {
     font-weight: 700;
     font-size: 56px;
 
     /* line-height: 60px; */
-    line-height: 1.1;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -72,8 +74,7 @@ font-style: normal;
 
 .order-btn{
     cursor: pointer;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
+    background-color: #404BBF;
     font-weight: 500;
     font-size: 16px;
     
@@ -83,11 +84,13 @@ font-style: normal;
     color: #fff;
 }
 .order-btn:hover {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #404bbf;
 }
+.features-section{
+    background-color: #FFFFFF;
+}
 
-.features{
+.feature-title {
     font-weight: 500;
     font-size: 20px;
     
@@ -97,27 +100,62 @@ font-style: normal;
     color: #2e2f42;
 }
 
-.features-text{
-    font-weight: 400;
+.feature-text{
     font-size: 16px;
     
     /* line-height: 24px; */
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #434455;
+}
+
+.team-section{
+    background-color: #f4f4fd;
+}
+
+.team-member {
+    background-color: #FFFFFF;
+}
+.member-name {
+    line-height: 1.11;
+    text-transform: capitalize;
 }
 
 .pictures-section{
     font-weight: 700;
     font-size: 36px;
-    
+    text-transform: capitalize;
     /* line-height: 40px; */
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
 }
-.page-footer{
+.portfolio{
+    background-color: #FFFFFF;
+}
+
+.portfolio-title{
+    font-weight: 500;
+    font-size: 20px;
+    
+    /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-text{
+    font-weight: 400;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.page-footer {
     background-color: #2e2f42;
     color: #f4f4fd;
 }

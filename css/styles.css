@@ -58,6 +58,66 @@ font-style: normal;
     color: #404bbf;
 }
 
+.hero-title {
+    background-color: #2e2f42;
+    font-weight: 700;
+    font-size: 56px;
+
+    /* line-height: 60px; */
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.order-btn{
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+.order-btn:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #404bbf;
+}
+
+.features{
+    font-weight: 500;
+    font-size: 20px;
+    
+    /* line-height: 24px; */
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.features-text{
+    font-weight: 400;
+    font-size: 16px;
+    
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.pictures-section{
+    font-weight: 700;
+    font-size: 36px;
+    
+    /* line-height: 40px; */
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
 .page-footer{
     background-color: #2e2f42;
+    color: #f4f4fd;
 }
